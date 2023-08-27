@@ -1,0 +1,47 @@
+request detail is : -------------------------------
+Request
+-------------------------------
+URL: http://walletservice/rpc/v1/dorado/appPush
+Query String: null
+HTTP Method: POST
+IP address: 127.0.0.1
+Timestamp: 2023-08-26 12:05:00
+
+
+-------------------------------
+Params
+-------------------------------
+
+
+-------------------------------
+Headers
+-------------------------------
+x-request-id: cc2ad9cb-6013-9f5f-8e6d-0cbf62e2d5f9
+x-b3-parentspanid: fd34d904cad8c16d
+content-length: 627
+x-forwarded-proto: http
+x-b3-sampled: 0
+accept: */*
+x-amzn-trace-id: Root=1-64e9ea6c-8ef0f26764e3431685d9891c;Parent=4f3ae1d20e288545;Sampled=0
+x-b3-traceid: 211e14ca2406c9fb
+x-b3-spanid: a637d29e71e9c2a6
+host: walletservice
+content-type: application/json
+x-envoy-expected-rq-timeout-ms: 16000
+user-agent: Java/11.0.17
+
+
+-------------------------------
+Sessions
+-------------------------------
+
+
+-------------------------------
+Cookies
+-------------------------------
+
+
+-------------------------------
+Payload
+-------------------------------
+{"businessId":"lheNhZPKuXrbUYbU","token":"35833492843814912","pushId":null,"platform":10,"topic":null,"messageGroupId":null,"alertNotificationSchemaBO":{"notificationType":null,"title":"Asset transfer request has expired","subtitle":null,"body":"Applied to send 1.00 USDT","launchImage":null,"titleLocKey":null,"titleLocArgs":null,"subtitleLocKey":null,"subtitleLocArgs":null,"locKey":null,"locArgs":null},"appPushStrategy":{"expireTimestamp":null,"priority":10,"retryTimes":5},"appPushDeepLinkBO":{"action":1,"internalPage":"/approval/withdrawalDetail?withdrawalId=284156877171167232&walletId=1660972655113773057","web":null}}
