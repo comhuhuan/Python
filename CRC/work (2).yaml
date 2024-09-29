@@ -8,7 +8,7 @@ proxy-providers:
   FlyingBird-HongKong:
     type: http
     path: ./ProxySet/FlyingBird/HongKong.yaml
-    url: "https://bit.ly/cmwowork"
+    url: "https://bit.ly/"
     interval: 1800
     filter: '香港'
     health-check:
